@@ -11,9 +11,12 @@ List of items used in this project and where to find them:
 
 ■ Waveshare 2.9” E-ink Display (296x128): https://geni.us/E-inkDisplay1
 
+■ ■ Note: There are reports of the linked E-Ink display not working with the current code. 
+
 ■ Electrical wire: https://geni.us/22AWGWire
 
 ■ ESP32 (x1): https://geni.us/ESP32
+
 ■ ■ Note: Amazon Link is incorrect if you are going to use the PCB design. PCB Design requires 30 Pin ESP32
 
 ■ Limit Switches (x4): https://geni.us/ContactSwitch
@@ -21,6 +24,7 @@ List of items used in this project and where to find them:
 ■ Micro continuous / 360 degree rotation servos (x4): https://geni.us/FS90R
 
 ■ PCB: https://geni.us/WeatherBotPCB
+
 ■ ■ Note: Link is outdated if you are going to use the ESP32 Amazon Link. PCB Design requires 30 Pin ESP32
 
 ■ USB cable (for uploading code and powering project): https://geni.us/MicroUSBCable
