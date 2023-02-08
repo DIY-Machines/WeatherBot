@@ -24,7 +24,7 @@ const char* password = "YOUR-WIFI-PASSWORD";   // YOUR WIFI PASSWORD
 
 const int servoSpeed = 23;                // Controls the speed of rotation of the servos (0 to 90 with 90 being the fastest) Default = 23
 
-String serverPath = "http://api.openweathermap.org/data/2.5/onecall?lat={latitude}&lon=-{longitude}&units=metric&exclude=minutely&appid={Your-API-Key}";  // Your API call made up as follows: http://api.openweathermap.org/data/2.5/onecall?lat={latitude}}&lon=-{longitude}}&units=metric&exclude=minutely&appid={Your-API-Key}
+String serverPath = "http://api.openweathermap.org/data/3.0/onecall?lat={latitude}&lon=-{longitude}&units=metric&exclude=minutely&appid={Your-API-Key}";  // Your API call made up as follows: http://api.openweathermap.org/data/2.5/onecall?lat={latitude}}&lon=-{longitude}}&units=metric&exclude=minutely&appid={Your-API-Key}
 
 unsigned long timerDelay = 3600000;  //20 seconds = 20000.   60 second = 60000.  5 minutes. =  300000.  Hourly = 3600000. Daily = 86400000. Check the API call limits per hour/minute to avoid getting blocked/banned
 
