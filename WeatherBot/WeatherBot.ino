@@ -288,7 +288,8 @@ String httpGETRequest(const char* serverName) {
 
 void screenOutput()
   {
-  display.init();
+  //display.init();
+  display.init(115200, true, 2, false);
   display.setTextColor(GxEPD_BLACK);
   display.setFont(&FreeSans12pt7b);
   display.setRotation(1);
@@ -349,7 +350,8 @@ void screenOutput()
 
 void screenOutputDIYMWelcome()
   {
-    display.init();
+    //display.init();
+    display.init(115200, true, 2, false);
     display.setRotation(1);
     display.firstPage();
     display.drawBitmap(0, 0, epd_bitmap_diym_welcome, 296, 128, GxEPD_BLACK);
