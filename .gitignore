@@ -2,3 +2,4 @@ WeatherBot/debug.cfg
 WeatherBot/debug_custom.json
 working/
 WeatherBot/esp32.svd
+.vscode
