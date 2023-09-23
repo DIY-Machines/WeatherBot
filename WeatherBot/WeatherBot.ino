@@ -197,7 +197,7 @@ void loop() {
       }
 
       // Storing todays weather
-      weatherTodaysDescription = myObject["daily"][0]["weather"][0]["description"];
+      weatherTodaysDescription = (const char*) myObject["daily"][0]["weather"][0]["description"];
       weatherTodaysTempFeel = myObject["daily"][0]["feels_like"]["day"];
       weatherTodaysPrecipitationProbability = myObject["daily"][0]["pop"];
       weatherTodaysWindSpeed = myObject["daily"][0]["wind_speed"];
@@ -210,7 +210,7 @@ void loop() {
 
 
       // Storing tomorrows weather
-      weatherTomorrowsDescription = myObject["daily"][1]["weather"][0]["description"];
+      weatherTomorrowsDescription = (const char*) myObject["daily"][1]["weather"][0]["description"];
       weatherTomorrowsTempFeel = myObject["daily"][1]["feels_like"]["day"];
       weatherTomorrowsPrecipitationProbability = myObject["daily"][1]["pop"];
       weatherTomorrowsWindSpeed = myObject["daily"][1]["wind_speed"];
