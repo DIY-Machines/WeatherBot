@@ -1,5 +1,5 @@
 Thanks to @secoughl for [updating](https://github.com/secoughl/WeatherBot) this project. 
-
+![Alt text](IMG_0005.jpg?raw=true "Title")
 # WeatherBot
 3D Printable Weather Forecasting Theatre | ESP32 &amp; OpenWeatherMap
 
